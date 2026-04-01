@@ -1,5 +1,8 @@
 const data = [
-      { img: 'https://storage.googleapis.com/operfluxo/projetos_gerais/capa_sibelly.png', titulo: 'Meu Portfólio', link: '#' }
+      { img: 'https://storage.googleapis.com/operfluxo/projetos_gerais/capa_sibelly.png', 
+        titulo: 'Meu Portfólio', 
+        link: 'https://github.com/sibellymonayane/meu_portfolio' 
+      }
     ];
 
     document.getElementById('render-projetos').innerHTML = data.map(item => `
