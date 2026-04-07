@@ -1,8 +1,14 @@
 const data = [
-      { img: 'https://storage.googleapis.com/operfluxo/projetos_gerais/capa_sibelly.png', 
-        titulo: 'Meu Portfólio', 
-        link: 'https://github.com/sibellymonayane/meu_portfolio' 
-      }
+      { 
+    img: 'https://storage.googleapis.com/operfluxo/projetos_gerais/capa_sibelly.png', 
+    titulo: 'Meu Portfólio', 
+    link: 'https://github.com/sibellymonayane/meu_portfolio' 
+  },
+  {
+    img: 'https://storage.googleapis.com/operfluxo/projetos_gerais/capa_sibelly.png',
+    titulo: 'Meu Portfólio em React',
+    link: 'https://github.com/sibellymonayane/meu_portfolio_react'
+  }
     ];
 
     document.getElementById('render-projetos').innerHTML = data.map(item => `
